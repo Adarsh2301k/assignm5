@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skeleton</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+       .heading{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+       }
+        
+    
+        header{
+            padding: 5px;
+            background-color: black;
+            color: rgb(241, 242, 248);
+           
+           
+        
+        }
+        .container{
+            background-color: rgb(14, 242, 242);
+            /* width: 100vw; */
+            height: 840px;
+
+        }
+        .box1{
+            background-color: red;
+            color: white;
+            /* width: 100vw; */
+            height: 100px;
+        }
+        
+        .sub{
+            background-color: blueviolet;
+            color: white;
+            height: 60px;
+            /* margin: 5px; */
+        }
+        .sub1{
+            background-color: yellow;
+            color: red;
+            height: 25px;
+        }
+        
+
+        footer{
+            background-color: black;
+            color: white;
+            padding: 10px;
+        }
+            
+        #num{
+            color: black;
+            margin: 10px;
+
+        }
+        .website{
+            display: flex;
+            justify-content: center;
+            color:blue;
+        }
+        .career{
+            color: black;
+            margin: 25px;
+        }
+        .blink{
+            animation: blinker 1.5s linear infinite;
+                color: rgb(9, 221, 236);
+                font-family: sans-serif;
+            }
+            @keyframes blinker {
+                50% {
+                    opacity: 0;
+                }
+
+        }
+        .left{
+            background-color: goldenrod;
+            color: white;
+            /* align-items: left; */
+            float: left;
+            height: 100vh;
+            /* width:350px; */
+            width: 20vw;
+        }
+        .right{
+            background-color: yellow;
+            float: right;
+            width: 78vw;
+            height: 100vh;
+            /* check here again some problem with using margin */
+            /* margin: 5px; */
+        }
+        .subr{
+            background-color: brown;
+            height: 25px;
+            color: white;
+        }
+        .new{
+            height: 500px;
+            width: auto;
+            background-color: rgb(231, 225, 236);
+        }
+        .ad{
+            background-color: white;
+            height: 150px;
+            color: red;
+            margin: 25px;
+            padding: 20px;
+        }
+        .t3{
+            display: flex;
+            justify-content:left;
+            margin: 50px;
+        }
+        .t5{
+            display: flex;
+            justify-content: right;
+            margin: 50px;
+        }
+        .t6{
+            display: flex;
+            justify-content: right;
+            margin: 50px;
+        }
+        
+        
+    
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="heading" >
+                <li><a href="file:///C:/Users/Adarsh/Desktop/harrycss/1web/main.html" style="color:#ecf0ee;">Home</a></li>
+                <li>File</li>
+                <li>Contact</li>
+                <li>About</li>
+                <li>Help</li>  
+                <li>Others</li> 
+                <li>LOGIN</li> 
+                <LI>SIGNUP</LI>          
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="box1">
+            <h1>
+              <marquee class="blink">
+                 Welcome to our official webpage. 
+              </marquee> </h1>
+
+ <br>         <h3>
+             <marquee direction="up" class="website" >image(symbol).png</marquee>
+           </h3>
+
+
+        </div>
+        <div class="left">
+           <div class="sub" align="center"><b>AIM :To provide support and true information to the user to make their path easy.</b></div>
+            <hr>
+            <div class="sub1"><b>CAREER OPTIONS</b></div>
+            <BR>
+                <ul class="career">
+                    <li>Education </li>
+                    <ul class="career">
+                        <li><a href="https://en.wikipedia.org/wiki/Engineering" style="text-decoration:none">ENGINEERING</a></li>
+                        <LI><a href="ndeed.com/career-advice/finding-a-job/career-paths-in-the-medical-field" style="text-decoration:none">MEDICAL</a></LI>
+                        <LI><A href="https://www.vidyaguru.in/exam/career-options-in-the-government-sector-and-how-to-prepare-for-them/" style="text-decoration:none">GOVERNMENT Jobs 
+                        </A></LI>
+                    </ul>
+                    <li>Bussiness</li>
+                    <UL class="career">
+                        <li><A href="https://www.indeed.com/career-advice/finding-a-job/manufacturing-jobs" style="text-decoration:none">Manufacturing Field</A></li>
+                        <li><a href="https://www.bestcolleges.com/careers/technology/" style="text-decoration:none">Technical field</a></li>
+                    </UL>
+                    <li>Self employment</li>
+                    <ul class="career">
+                        <li><a href="https://myinvestmentideas.com/top-most-profitable-retail-business-ideas-with-low-investment/" style="text-decoration:none">Small bussinesses    
+                        </a> </li>
+                        <li><a href="https://blog.hubspot.com/sales/small-business-ideas" style="text-decoration:none">Service provider</a></li>
+                       
+                    </ul>
+
+                </ul>
+                <div class="ad"> For Advertisement Purpose<br>CONATCT US 8354XXXXXX</div>
+            </div>
+
+            <!-- yellow box ki puri kahani yahi se chalu ho rhi hai  -->
+        <div class="right">
+            <div class="subr">
+
+                <p>Table representing /targeting about various upcoming /ongoing/passed  exams details. 
+                    Users get direct link to official website on particular related option selected.
+                </p>
+            </div>
+            <br><br>
+            <div class="t3">
+                <table border="3" >
+                    <tr>
+                        <th bgcolor="green" colspan="6">Qualification needed</th>
+                    </tr>
+                    <tr>
+                        <th>10  passed...</th>
+                        <th>12  passed...</th>
+                        <th>Graduate...</th>
+                       
+                    </tr>
+                    <tr>
+                        <td><a href="#">Postoffice</a></td>
+                        <td><a href="#">JEE mains</a></td>
+                        <td><a href="#">B.ED</a></td> 
+                        
+                    </tr>
+                    <tr>
+                        <td><a href="#">Postoffice</a></td>
+                        <td><a href="#">JEE mains</a></td>
+                        <td><a href="#">B.ED</a></td> 
+                       
+                    </tr>
+                    <tr>
+                        <td><a href="#">Postoffice</a></td>
+                        <td><a href="#">JEE mains</a></td>
+                        <td><a href="#">B.ED</a></td> 
+                       
+                    </tr>
+                    <tr>
+                        <td><a href="#">Postoffice</a></td>
+                        <td><a href="#">JEE mains</a></td>
+                        <td><a href="#">B.ED</a></td> 
+                     
+                    </tr>
+                    <tr>
+                        <td><a href="#">Postoffice</a></td>
+                        <td><a href="#">JEE mains</a></td>
+                        <td><a href="#">B.ED</a></td> 
+                       
+                    </tr>
+           
+               </table> 
+               </div>
+            <div class="t5">
+           <table border="3" >
+            <tr>
+                <th bgcolor="green" colspan="6">Qualification needed</th>
+            </tr>
+            <tr>
+                <th>10  passed...</th>
+                <th>12  passed...</th>
+                <th>Graduate...</th>
+                <th>Post Graduate...</th>
+                <th>12  passed...</th>
+                <th>Others...</th>
+            </tr>
+            <tr>
+                <td><a href="#">Postoffice</a></td>
+                <td><a href="#">JEE mains</a></td>
+                <td><a href="#">B.ED</a></td> 
+                <td><a href="#">Profess</a></td>
+                <td><a href="#">Birth </a></td>
+               
+            </tr>
+            <tr>
+                <td><a href="#">Postoffice</a></td>
+                <td><a href="#">JEE mains</a></td>
+                <td><a href="#">B.ED</a></td> 
+                <td><a href="#">Profess</a></td>
+                <td><a href="#">Birth </a></td>
+             
+            </tr>
+            <tr>
+                <td><a href="#">Postoffice</a></td>
+                <td><a href="#">JEE mains</a></td>
+                <td><a href="#">B.ED</a></td> 
+                <td><a href="#">Profess</a></td>
+                <td><a href="#">Birth </a></td>
+                
+            </tr>
+            <tr>
+                <td><a href="#">Postoffice</a></td>
+                <td><a href="#">JEE mains</a></td>
+                <td><a href="#">B.ED</a></td> 
+                <td><a href="#">Profess</a></td>
+                <td><a href="#">Birth </a></td>
+               
+            </tr>
+            <tr>
+                <td><a href="#">Postoffice</a></td>
+                <td><a href="#">JEE mains</a></td>
+                <td><a href="#">B.ED</a></td> 
+                <td><a href="#">Profess</a></td>
+                <td><a href="#">Birth </a></td>
+               
+            </tr>
+            <tr>
+                <td><a href="#">Postoffice</a></td>
+                <td><a href="#">JEE mains</a></td>
+                <td><a href="#">B.ED</a></td> 
+                <td><a href="#">Profess</a></td>
+                <td><a href="#">Birth </a></td>
+               
+            </tr>
+            <tr>
+                <td><a href="#">Postoffice</a></td>
+                <td><a href="#">JEE mains</a></td>
+                <td><a href="#">B.ED</a></td> 
+                <td><a href="#">Profess</a></td>
+                <td><a href="#">Birth </a></td>
+                
+            </tr>
+            <tr>
+                <td><a href="#">Postoffice</a></td>
+                <td><a href="#">JEE mains</a></td>
+                <td><a href="#">B.ED</a></td> 
+                <td><a href="#">Profess</a></td>
+                <td><a href="#">Birth </a></td>
+                
+            </tr>
+            <tr>
+                <td><a href="#">Postoffice</a></td>
+                <td><a href="#">JEE mains</a></td>
+                <td><a href="#">B.ED</a></td> 
+                <td><a href="#">Profess</a></td>
+                
+                <td><a href="#">Railways</a></td>
+            </tr>
+           </table>
+             </div>    
+           <!-- printing the table for trial purpose only -->
+        </div>
+        <!-- main div main here closing -->
+            </div>
+        
+        
+        
+        <!-- something new -->
+            <div class="new"><h1>UNDER CONSTRUCTION</h1></div>
+            
+        </body>
+        </html>
+         
